@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <!-- Using # to submit the details within the same page -->
+    <!--  -->
+    <form action="#" method="get">
+        
+        Name: <input type="text" name="Username" value=""> <br>
+        <!-- Use of Placeholder  -->
+        <!-- Use of label attribute -->
+        <label for="Uname">User Name</label>
+        <input type="text" name="Username" value="" placeholder="Enter your full name" id="Uname"> <br>
+        Password: <input type="password" name="Userpassword"> <br>
+
+        <!-- To separate the details -->
+    <fieldset>
+        <legend>Registarion Details</legend>
+            <label for="Uname">User Name</label>
+        <input type="text" name="Username" value="" placeholder="Enter your full name" id="Uname"> <br>
+        Password: <input type="password" name="Userpassword">
+    </fieldset>
+
+        <!-- Use of pattern for regular expression -->
+        Confirm Password: <input type="password" name="Userpassword" pattern="Dodda@9956"> <br>
+
+        E-Mail: <input type="email" name="E-mail"> <br>
+
+        Gender: <input type="radio" name="Gender" value="Male">Male
+                <input type="radio" name="Gender" value="Female">Female <br>
+
+        Courses: <input type="checkbox" name="Course" value="Java">Java
+        <input type="checkbox" name="Course" value="SQL">SQL
+        <input type="checkbox" name="Course" value="HTML">HTML <br>
+
+        Address: <textarea name="Uder Address" placeholder="Enter user permanent address" id="" cols="30" rows="10"></textarea> <br>
+
+        DOB: <input type="date"> <br>
+
+        DOB: <input type="datetime-local"> <br>
+
+        Contact: <input type="tel" name="Contact Number" value="+91"> <br>
+
+        <!-- Use of pattern -->
+        Contact: <input type="tel" name="Contact Number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" placeholder="123-4567-890" > <br>
+
+        <!-- Dropdown -->
+        City: <select name="Places" size="3" >
+            <option value="Ballary">Ballary</option>
+            <option value="Raichur">Raichur</option>
+            <option value="Koppala">Koppala</option>
+        </select> <br>
+        <!-- If you want to select multiple values at a time we go fo multiple  -->
+        City: <select name="Places" size="" multiple >
+            <option value="Ballary">Ballary</option>
+            <option value="Raichur">Raichur</option>
+            <option value="Koppala">Koppala</option>
+        </select> <br>
+
+        <!-- HTML5: Datalist usage -->
+        <input list="colors">
+        <datalist id="colors">
+            <option value="red">RED</option>
+            <option value="orange">Orange</option>
+            <option value="blue">Blue</option>
+        </datalist> <br>
+
+        Age: <input type="number" name="Number"> <br>
+
+        Upload File: <input type="file" name="Upload File"> <br>
+        <button>RESET</button>
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
