@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewForm</title>
+    
+    <link rel="stylesheet" href="./formcss.css">
+
+</head>
+<body>
+   <section id="Mainblock">
+    <article>
+        <h1>Contact Form</h1>
+        <p>PLease fill in your information and we'll be sending your order in no time</p>
+        
+    <form action="#">
+         <!-- Group1 as a class reference for this whole div, it applies all the childrens within this tag -->
+    <div class="Group1"> 
+       <!-- Here one more class reference using as label it applies all labels within the sheet, so at single time we can edit the all labels -->
+    <label for="Name"  class="label">Name</label>
+    <input type="text" name="First Name" placeholder="First Name" id="">
+    <input type="text" name="Last Name" placeholder="Last Name" id="">
+    </div>
+
+    <div class="Group2">
+    <label for="E-mail" class="label">E-Mail</label>
+    <input type="email" name="Email" placeholder="e.g. User Email" id="">
+    </div>
+
+    <div class="Group3">
+    <label for="Phone">Phone</label>
+    <input type="tel" name="Num" pattern="[0-9]{3}" placeholder="###">
+    <input type="tel" name="Num" pattern="[0-9]{4}" placeholder="####">
+    <input type="tel" name="Num" pattern="[0-9]{3}" placeholder="###">
+    </div>
+
+    <div>
+        <label for="Message Subject">Message subject</label>
+        <input list="Message Subject" name="Message Subject" id="Message Subjet" >
+        <datalist id="Message Subject">
+            <option value="1">Mission</option>
+            <option value="2">Vision</option>
+            <option value="3">Values</option>
+        </datalist>
+    </div>
+
+    <div>
+        <label for="Message">Message</label>
+        <textarea name="Message" placeholder="Your Description" id="" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        <label for="Verification" name="Verification">Verification</label>
+        <div>
+            <input  type="Checkbox" name="" id="">
+            <span><input type="box" name="" id=""></span> 
+        </div> 
+    </div>
+
+    <hr>
+
+    <div>
+        <button>SUBMIT BUTTON</button>
+    </div>
+
+</div>
+</form>
+</article>
+</section>
+</body> 
+</html>

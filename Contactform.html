@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        div{    
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin: 300px;
+            width: fit-content;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <form action="#" method="get">
+        
+        <div style="background-color:skyblue ;">
+            <h1 style="padding-bottom:10px;">Contact form</h1>  
+            <p style="padding-bottom: 40px;">Please fill in your information and we'll be sending your order in no time.</p>     
+                <table>
+                    <tr>
+                        <td>Your Name:</td> 
+                        <td><input type="text" Name="First Name" placeholder="Fisrt Name"> <input type="text" Name="Last Name" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td> Your Email:</td> <td><input type="email" name="Email" placeholder="e.g. hello@contact"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td><td><input type="tel" name="Number" pattern="[0-9]{3}" placeholder="###">
+                            <input type="tel" name="Number" pattern="[0-9]{3}" placeholder="###">
+                            <input type="tel" name="Number" pattern="[0-9]{4}" placeholder="####">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Message Subject:</td><td><select name="Message subject" id="">
+                            <option value="Other">Other</option>
+                            <option value="Animal Lover">Animal Lover</option>
+                                </select> </td>
+                    </tr>
+                    <tr>
+                        <td> Message:</td><td><textarea name="Meassage" id="" cols="66.5" rows="5"></textarea> </td>
+                    </tr>
+                
+                    <tr>
+                        <td>Verification: <td> <input type="text" name="I am not a Robot" placeholder="I am not a Robot"></td></td> 
+                    </tr>
+                
+
+                </table>
+
+                </form>
+                <hr>
+
+                <button style="background-color: skyblue; ">SUBMIT FORM</button>
+
+    </div>
+        
+    </body>
+</html>
+
+
+

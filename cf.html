@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form action="#" method="get" style="background-color:rgb(128, 205, 230) ;">
+        <h1>Contact Form</h1>
+        Please fill in your information and we'll be sending your order in no time.
+        
+        <div><table>
+            <tr>
+                <td>Your Name</td> <td> <input size="25.5" type="text" name="First Name" placeholder="First Name"> 
+                                        <input size="26" type="text" name="Last Name" placeholder="Last Name"> </td>
+            </tr>
+            <tr>
+                <td>Your Email</td> <td ><input size="57" type="email" name="Email" placeholder="e.g. hello@contact.net" ></td>
+            </tr>
+            <tr>
+                <td>Phone*</td> <td><input size="15" type="tel" name="Number" pattern="[0-9]{3}" placeholder="###">
+                                    <input size="15" type="tel" name="Number" pattern="[0-9]{4}" placeholder="####">
+                                    <input size="15" type="tel" name="Number" pattern="[0-9]{3}" placeholder="###">
+                                </td>
+            </tr>
+            <tr>
+                <td>Message Subject*</td><td><select  name="Subject" id="">
+                                         <option value="Mission">Mission</option>
+                                         <option value="Vission">Vission</option>
+                                         <option value="Core Value">Core Value</option>
+                                         <option value="Others">Others</option>
+                                        </td></select>
+            </tr> 
+            <tr>
+                <td>Message*</td><td><textarea name="Message" id="" cols="30" rows="5"></textarea></td>
+            </tr> 
+            <tr>
+                <td>Verification</td><td><input type="text" Name="Confirmation" placeholder="I Am not a Robot"></td>
+            </tr>
+            
+        </table>
+    </div>
+
+        <hr>
+        <tr>
+            <td><Button>SUBMIT FORM</Button></td>
+        </tr>
+    </form>
+</body>
+</html>
