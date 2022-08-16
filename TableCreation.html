@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TableCreation</title>
+    <!-- To add color and something -->
+    <style>
+        tr{
+            background-color: aqua;
+            color: maroon;
+        }
+        th{
+            background-color: antiquewhite;
+            color: blue;
+        }
+    </style>
+    </head>
+<body>
+    <!-- border: to put border/outline, cellpadding: Space around the content, Cellspacing: Space between cell -->
+    <table border="blank" cellpadding="20" cellspacing="20" >
+        <caption style="color:red"><b> TABLE</b></caption>
+         <thead>
+            <tr>
+                <th>Sl.No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>X</td>
+            <td>10</td>
+            <td>Bnagalore</td>
+        </tr>
+        <tr>
+            <!-- Merging of rows -->
+            <td colspan="2">2</td>
+            <!-- <td>Y</td> --> 
+            <td>20</td>
+            <td>Chennai</td>
+        </tr>
+        <tr>
+            <!-- Merging of colomns -->
+            <td>3</td>
+            <td>Z</td>
+            <td>30</td>
+            <td rowspan="2">Mumbai</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>P</td>
+            <td>40</td>
+            <!-- <td>Delhi</td> -->
+        </tr>
+        </table>
+                <tfoot>@2022</tfoot>
+     </body>
+</html>
