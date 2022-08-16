@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-left: 300px;
+    background-color: black;
+    
+}
+
+#Mainblock{
+    width: 800px ;
+    /* height: 100vh; */
+    display: flex;
+    color: blueviolet;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form{
+    /* width: 700px;
+    height: 600px; */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 20px 10px 10px 20px;
+    background-color:blueviolet ;
+    color: white
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.G1{
+    margin-bottom: 10px;
+}
+.G1>input{
+    margin-left: 40px; 
+}
+
+.G2{
+    margin-bottom: 10px;
+}
+.G2>input{
+    margin-left: 44px; 
+}
+
+.G3{
+    margin-bottom: 10px;
+}
+.G3>input{
+    margin-left: 21px; 
+}
+
+.G4{
+    margin-bottom: 10px;
+}
+.G4>input{
+    margin-left: 64px; 
+}
+
+.G5{
+    margin-bottom: 10px;
+}
+.G5>input{
+    margin-left: 5px; 
+}
+
+.G6{
+    margin-bottom: 10px;
+}
+.G6>textarea{
+    margin-left: 62px; 
+}
+
+.G7{
+    margin-bottom: 10px;
+}
+.G7>input{
+    margin-left: 95px; 
+}
+
+.G8{
+    margin-bottom: 10px;
+}
+.G8>input{
+    margin-left: 63px; 
+}
+
+.G9{
+    margin-bottom: 10px;
+}
+.G9>input{
+    margin-left: 88px; 
+}
+
+.G10{
+    margin-bottom: 20px;
+}
+.G10>input{
+    margin-left: 60px; 
+}
+
+.G11{
+    margin-bottom: 10px;
+}
+.G11>input{
+    margin-left: 67px; 
+}
+.O1{
+    margin-left: 135px;
+    margin-bottom: 30px;
+}
+
+.G12{
+    margin-bottom: 10px;
+}
+.G12>table{
+    margin-left: 135px;
+    margin-top: -30px; 
+}
+th{
+    font-size: 10px;
+}
+
+.G13{
+    margin-bottom: 10px;
+}
+.G13>input{
+    margin-left: 35px; 
+}
+
+
+span{
+    font-size: 10px;
+}
